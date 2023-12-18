@@ -7,8 +7,8 @@ const record = [
 
 
 
-function superbowlWin(finalResult) {
+function superbowlWin(finalResult) { 
     return finalResult.result === "W"
-
+    
 }
 console.log(record.find(superbowlWin).year)
